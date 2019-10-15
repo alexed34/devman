@@ -38,7 +38,7 @@ def main():
     parser.add_argument('name', help='Ваше имя')
     args = parser.parse_args()
 
-    user_input = args.name  # 'reg.ru'#input('Введите ссылку ', )
+    user_input = args.name  
     token_bit = os.getenv('TOKEN_BIT')
     try:
         if user_input.startswith('bit.ly'):
