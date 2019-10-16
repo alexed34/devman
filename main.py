@@ -3,7 +3,6 @@ import os
 from dotenv import load_dotenv
 import argparse
 
-load_dotenv()
 
 
 def shorten_link(token, url):
@@ -54,4 +53,5 @@ def main():
 
 
 if __name__ == "__main__":
+    load_dotenv()
     main()
